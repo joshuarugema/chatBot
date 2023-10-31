@@ -62,7 +62,7 @@ const Chat = () => {
 
   useEffect(() => {
     if (!auth?.user) {
-      return navigate("login");
+      return navigate("/login");
     }
   });
   return (
